@@ -29,3 +29,5 @@ To run the script, simply execute it with Python:
 python3 krayot.py
 
 The script will fetch the weather information every 5 minutes and send notifications to the specified Telegram chat during working hours (5 AM to 8 PM).
+
+Additionally, the provided shell script runs a Python script (krayot.py) in the background, waits for 300 seconds (5 minutes), and then terminates the Python script. This process continues in a loop, ensuring that the Python script is executed every 5 minutes.
