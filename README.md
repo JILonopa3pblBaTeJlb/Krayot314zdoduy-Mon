@@ -1,5 +1,4 @@
 # Krayot314zdoduy-Mon
-Weather Notifier
 
 This Python script retrieves the current weather conditions from a website and sends notifications through Telegram during working hours (5 AM to 8 PM). The script fetches weather information such as wind direction, wind speed, maximum wind speed, and temperature, and sends the data as a formatted message to a specified Telegram chat.
 Prerequisites
@@ -27,6 +26,6 @@ Usage
 To run the script, simply execute it with Python:
 
 
-python weather_notifier.py
+python3 krayot.py
 
 The script will fetch the weather information every 5 minutes and send notifications to the specified Telegram chat during working hours (5 AM to 8 PM).
