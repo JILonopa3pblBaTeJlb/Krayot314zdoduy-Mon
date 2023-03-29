@@ -13,7 +13,6 @@ Before using this script, you need to have Python 3.7 or higher installed on you
 
 You can install these packages using pip:
 
-sh
 
 pip install beautifulsoup4 requests python-telegram-bot pytz
 
@@ -27,7 +26,6 @@ Usage
 
 To run the script, simply execute it with Python:
 
-sh
 
 python weather_notifier.py
 
